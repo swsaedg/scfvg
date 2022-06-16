@@ -1,0 +1,20 @@
+{
+  "name": "deploy",
+  "description": "deploy",
+  "keywords": [
+    "deploy"
+  ],
+  "env": {
+    "UUID": {
+      "description": "UUID",
+      "value": "",
+      "required": true
+    }
+  },
+  "website": "https://github.com/swsaedg/scfvg",
+  "repository": "https://github.com/swsaedg/scfvg",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
